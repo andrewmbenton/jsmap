@@ -1,3 +1,7 @@
+## jsmap :: jsmap.rb
+## Copyright (c) 2010 Andrew Benton
+## This software is distributed under the MIT license. See LICENSE for details.
+
 require 'rubygems'
 require 'sinatra'
 require 'haml'

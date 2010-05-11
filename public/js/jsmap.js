@@ -1,4 +1,8 @@
-// Define some useful functions to build (x)/(ht)ml
+// jsmap :: jsmap.js
+// Copyright (c) 2010 Andrew Benton
+// This software is distributed under the MIT license. See LICENSE for details.
+
+// Define some useful functions to build html
 // TODO: Compare this with jaml and see if it would be useful to put this into a library of some sort
 function div(id, class, html) { return '<div id="'+id+'" class="'+class+'">'+html+'</div>' }
 function tr(class, html) { return '<tr class="'+class+'">'+html+'</tr>' }
