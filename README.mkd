@@ -22,7 +22,7 @@ For a description of IF-MAP see the specification and other documentation at
 If you already have all that, then clone this repo and...
 
     $ cd jsmap
-    $ ruby jsmap
+    $ ruby jsmap.rb
 
 Point your browser to localhost:4567. Put in a MAP server url and hit 'start'.
 Then build requests and hit 'submit' to send them. Server responses are logged
