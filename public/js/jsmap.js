@@ -44,12 +44,7 @@ function metadata_rows() {
         option('access-request-mac') +
         option('authenticated-as') +
         option('authenticated-by') +
-        option('capability') +
-        option('device-attribute') +
-        option('event') +
-        option('layer2-information') +
-        option('ip-mac') +
-        option('role')
+        option('ip-mac')
       )
     )
   )// +
