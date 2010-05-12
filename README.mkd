@@ -1,0 +1,37 @@
+### Overview ###
+
+**jsmap** is a super-simple (and kind of manual) IF-MAP client implementation
+that runs in the browser. You can point and click to build requests and see a
+log of server responses. It's based on
+[ifmap.js](http://github.com/andrewmbenton/ifmap.js) so IF-MAP subscriptions
+are not yet supported. A basic Sinatra application is used to proxy requests.
+
+For a description of IF-MAP see the specification and other documentation at
+[ifmapdev.com/documentation](http://ifmapdev.com/documentation).
+
+### Dependencies ###
+
+-  Ruby 1.8 or greater
+-  Rubygems
+-  Sinatra gem
+-  Haml gem
+-  Yajl-ruby gem
+
+### Get Started ###
+
+If you already have all that, then clone this repo and...
+
+    $ cd jsmap
+    $ ruby jsmap
+
+Point your browser to localhost:4567. Put in a MAP server url and hit 'start'.
+Then build requests and hit 'submit' to send them. Server responses are logged
+in the 'message log' pane.
+
+### Known Issues (upstream from ifmap.js) ###
+
+-  Pulling out session-id and publisher-id elements from a newSession response
+   won't work unless the elements are namespaced with the 'ifmap' prefix.
+-  IfmapMetadata needs work to support all standard IF-MAP metadata types.
+-  Support for custom metadata isn't included.
+-  Support for subscriptions is nonexistent. Maybe soon...
