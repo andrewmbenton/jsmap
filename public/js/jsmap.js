@@ -250,7 +250,7 @@ $( function() {
   // Set up an IfmapClient object when the user clicks 'start'
   $("#start").click( function(e) {
     e.preventDefault();
-    ifmapClient = new IfmapClient($("#url").val());
+    ifmapClient = new IfmapClient('/', $("#url").val());
     ifmapClient.newSession( function(data, status, xhr) {
       if (status == "success") { appendToLog(data["soap"]) }
       else { appendToLog("An error occurred while trying to establish a session with the MAP server") }
