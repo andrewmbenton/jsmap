@@ -163,7 +163,7 @@ function SOAPRequest(action, xmlObj) {
   };
 };
 
-// XML Object
+
 function XMLObject(name) {
   this.typeOf = 'XMLObject';
   this.name = name;

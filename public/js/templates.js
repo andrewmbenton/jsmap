@@ -87,31 +87,6 @@ var templates = {
     ]]
   ],
   
-  'matchLinksRow': [
-    ['tr', {'class':'match-links'}, [
-      ['td', ['label', 'match-links:']],
-      ['td', ['input', {'class':'match-links-value', 'name':'match-links-value', 'type':'text', 'size':'50'}]]
-    ]]
-  ],
-  
-  'filterRow': [
-    ['tr', {'class':'filter'}, [
-      ['td', ['label', 'filter:']],
-      ['td', ['input', {'class':'filter-value', 'name':'filter-value', 'type':'text', 'size':'50'}]]
-    ]]
-  ],
-  
-  'searchMaximumRows': [
-    ['tr', {'class':'max-depth'}, [
-      ['td', ['label', 'max-depth:']],
-      ['td', ['input', {'class':'max-depth-value', 'name':'max-depth-value', 'type':'text', 'size':'50'}]]
-    ]],
-    ['tr', {'class':'max-size'}, [
-      ['td', ['label', 'max-size:']],
-      ['td', ['input', {'class':'max-size-value', 'name':'max-size-value', 'type':'text', 'size':'50'}]]
-    ]]
-  ],
-  
   'identitySelector': [
     ['select', {'class':'identity-type extra'}, [
       ['option', {'value':'aik-name'}, 'aik-name'],
